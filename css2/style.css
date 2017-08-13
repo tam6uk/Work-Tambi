@@ -426,6 +426,9 @@ button.btn-default:hover {
 }
 textarea.form-control {
 	border-radius:0;
+	width: 100%; /* Ширина поля в процентах */
+    height: 200px; /* Высота поля в пикселах */
+    resize: none; /* Запрещаем изменять размер */
 
 }
 
